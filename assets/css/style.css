@@ -218,10 +218,22 @@ hr  {
 
 /* Footer */
 
-#social {
-    width: 100%;
-    font-size: 200%;
+footer{
+    height: 150px;
+
+}
+
+.social-networks {
     text-align: center;
-    float: left;
-    padding: 15px 0 15px 0;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color:#3a3a3a;
 }
